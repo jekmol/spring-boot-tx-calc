@@ -19,7 +19,6 @@ Run unit test using JUnit, /spring-boot-tax-calculator/src/test/java/com/tax/cal
 ```
 
 ## API Documentation
-```
 http://localhost:8080/bill/swagger-ui.html
 
 | ***Endpoints*** | ***Method*** | ***Description*** |
@@ -27,7 +26,6 @@ http://localhost:8080/bill/swagger-ui.html
 |`/getbills`      | `GET`        | Get bill details stored in DB |
 |`/addbill`       | `POST`       | Save bill into DB |
 
-```
 
 ## Deployment
 ```
