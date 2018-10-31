@@ -24,8 +24,10 @@ http://localhost:8080/bill/swagger-ui.html
 
 | ***Endpoints*** | ***Method*** | ***Description*** |
 |-----------------|:------------:|-------------------|
-|`/getbills`          | `GET`        | Get bill info (product and tax) stored in DB |
-|`/addbill`          | `POST`       | Save bill into DB |
+|`/getbills`      | `GET`        | Get bill info (product and tax) stored in DB |
+|`/addbill`       | `POST`       | Save bill into DB |
+
+
 ```
 
 ## Deployment
