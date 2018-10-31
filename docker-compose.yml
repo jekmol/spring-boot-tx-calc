@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+    web:
+      container_name: spring-boot-tax-calculator
+      image:  spring-boot-tax-calculator:latest
+      ports: 
+        - 8080:8080
+      depends_on:
+        - db
+    db:
+      container_name: postgres-server
+      image: postgres:latest
+      environment:
+        - POSTGRES_PASSWORD=postgres
+        - POSTGRES_USER=postgres
+        - POSTGRES_DB=postgres
+      ports:
+        - 5432:5432
