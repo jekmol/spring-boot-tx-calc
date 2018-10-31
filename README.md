@@ -4,7 +4,7 @@ Spring Boot Tax Calculator
 
 ### Prerequisites
 ```
-This application is developed with Spring Boot Java and Postgres as the database. It is also available to run with docker, please make sure you have docker and docker-compose installed on your pc.
+This application is developed with Spring Boot Java and PostgreSQL. It is available to run with docker, please make sure you have docker and docker-compose installed on your pc.
  
 System Requirements:
 1. Java 1.8
